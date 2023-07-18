@@ -18,4 +18,7 @@ export class ShoppingListComponent implements OnInit {
   constructor() {
   }
 
+  addNewItemToShoppingList($event: Ingredient) {
+    this.ingredients.push($event);
+  }
 }
